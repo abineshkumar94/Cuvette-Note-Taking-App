@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.create-container {
+  align-items: center;
+  position: relative;
+  width: 335px;
+  height: 150px;
+  top: 88px;
+  left: 145px;
+  border-radius: 6px;
+  background: #cccccc;
+}
+
+.create-text1 {
+  position: absolute;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 46px;
+  letter-spacing: 0.035em;
+  left: 20px;
+  top: -5px;
+  color: #000000;
+}
+
+.create-group {
+  position: absolute;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  top: 32px;
+  left: 21px;
+  color: #000000;
+}
+
+.form {
+  position: absolute;
+  text-align: center;
+  width: 175px;
+  height: 21px;
+  top: 52px;
+  left: 115px;
+  border-radius: 22px;
+  border: none;
+  color: #000000;
+  background-color: #ffffff;
+  outline: none;
+}
+
+.form::placeholder {
+  padding-left: 10px;
+}
+
+.create-colour {
+  position: absolute;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0.035em;
+  text-align: left;
+  top: 65px;
+  left: 21px;
+}
+
+.clr-btn1 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 128px;
+  border-radius: 50%;
+  background: #b38bfa;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clr-btn2 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 148px;
+  border-radius: 50%;
+  background: #ff79f2;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clr-btn3 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 168px;
+  border-radius: 50%;
+  background: #43e6fc;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clr-btn4 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 188px;
+  border-radius: 50%;
+  background: #f19576;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.clr-btn5 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 208px;
+  border-radius: 50%;
+  background: #0047ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.clr-btn6 {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 90px;
+  left: 228px;
+  border-radius: 50%;
+  background: #6691ff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.create-btn {
+  position: absolute;
+  width: 65px;
+  height: 20px;
+  top: 121px;
+  left: 255px;
+  border-radius: 5px;
+
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #000000;
+  font: Roboto;
+  color: #ffffff;
+}
