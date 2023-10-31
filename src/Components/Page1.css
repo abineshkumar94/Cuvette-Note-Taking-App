@@ -69,6 +69,7 @@
   letter-spacing: 0.02em;
   text-align: left;
   left: -172px;
+  top: -20px;
 }
 
 .btn {
@@ -81,11 +82,55 @@
   text-align: left;
   width: 115px;
   height: 23px;
-  top: 63px;
+  top: 35px;
   left: -157px;
-  color: #FFFFFF;
+  color: #ffffff;
   background: black;
   border: none;
   cursor: pointer;
   border-radius: 50px;
+}
+
+/* Add these CSS rules to your stylesheet (Page1.css) */
+
+.profile-info {
+  position: absolute;
+  top: 100px; /* Adjust the position as needed */
+  left: 20px; /* Adjust the position as needed */
+  display: flex;
+  align-items: center;
+}
+
+.profile-color {
+  position: absolute;
+  left: -180px;
+  top: -20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.initials{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  content: attr(data-initials); /* Use the 'data-initials' attribute for the content */
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff; /* Set the text color to white or the desired color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.profile-name {
+  position: absolute;
+  top: -16px;
+  left: -138px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  /* Add any other text styles you want for the name element */
 }

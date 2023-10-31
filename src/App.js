@@ -3,10 +3,12 @@ import Page1 from './Components/Page1';
 
 
 
+
 const App = () => {
   return (
     <div>
-         <Page1 />
+         <Page1/>
+      
         
     </div>
   );
